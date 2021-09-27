@@ -359,6 +359,11 @@ li.header__li-box a:hover
     margin-right: 5px;
     margin-bottom: 10px;
     width: 130px;
+    cursor: pointer;
+}
+.slider__nav li:hover 
+{
+    transform: scale(1.01);
 }
 .slider__nav li:nth-child(2)
 {
