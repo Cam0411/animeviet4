@@ -99,7 +99,7 @@
     color: #b7b7b7;
     list-style: none;
     padding: 10px;
-    font-size: 10px;
+    font-size: 16px;
    
 }
 .content__nav li i 
@@ -124,7 +124,7 @@
 }
 #content__2 
 {
-    height: 1500px;
+    height: 1700px;
 }
 .content__img 
 {
@@ -144,7 +144,16 @@
 {
     flex-wrap: wrap;
 }
-
+@media (max-width:400px){
+    .content__nav li 
+{
+    
+    list-style: none;
+    padding: 10px;
+    font-size: 10px;
+   
+}
+}
 }
 
 @media (min-width:601px) and (max-width:1020px){
@@ -173,7 +182,7 @@
 }
 #content
 {
-    height: 1300px;
+    height: 1100px;
 }
 .content__flex 
 {
@@ -224,7 +233,7 @@
     color: #b7b7b7;
     list-style: none;
     padding: 10px;
-    font-size: 14px;
+    font-size: 12px;
  
 }
 #content__2 
