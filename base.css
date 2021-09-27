@@ -1,0 +1,90 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+   
+}
+.grid 
+{
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width:100%;
+}
+.heading__logo 
+{
+    background: -webkit-linear-gradient( left, #fff,#fff, #e63334);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+@keyframes fadeUp2{
+    from{
+         transform: translateY(50%);
+        opacity: 0;
+    }to{
+        transform: translateY(0%);
+        opacity: 1;
+    }
+}
+@keyframes fadeLeft{
+    from{
+        transform: translateX(-100%);
+        opacity: 0;
+    }to{
+        transform: translateY(0%);
+        opacity: 1;
+    }
+}
+@keyframes fadeLeft2{
+    from{
+      
+        opacity: 0;
+    }to{
+        
+        opacity: 1;
+    }
+}
+@keyframes animate {
+    0%,100%{
+        background-image: url("./asset/hero-2.jpg");
+    }
+    25%{
+        background-image: url("./asset/hero-3.jpg");
+    }
+    50%{
+        background-image: url("./asset/hero-4.jpg");
+    }
+    75%{
+        background-image: url("./asset/hero-5.jpg");
+    }
+}
+@keyframes fadeUp {
+    from{
+        opacity: 0;
+        transform: scale(0);
+    }to 
+    {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+@keyframes loader{
+    50%{
+        height: 64px;
+    }
+}
+
+.loader .load:nth-child(1){
+    background: #FF9f1a;
+    animation-delay: -0.40s;
+}
+.loader .load:nth-child(2){
+    background: #FF9f1a;
+    animation-delay: -0.20s;
+}
+.loader .load:nth-child(3){
+    background: #FF9f1a;
+    animation-delay: 0s;
+}
