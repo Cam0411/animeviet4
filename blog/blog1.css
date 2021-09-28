@@ -430,7 +430,13 @@ li.header__li-box a:hover
     color: #ffff;
     padding: 10px 14px;
     text-align: center;
-    width: 150px;
+    width: 250px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.content__box:hover 
+{
+    transform: scale(1.02);
 }
 .content__img 
 {
