@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Anime</title>
+    
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
     <link rel="stylesheet" href="../base.css">
     <link rel="stylesheet" href="blog1.css">
@@ -117,31 +119,31 @@
                     <div class="content__trending-movie">
                         <div class="content__movie">
                             <div class="content__sub-movie">
-                                <i class="menu plus fas fa-plus"></i>
+                                
                             </div>
-                            <img src="../asset/trend-5.jpg" alt="" srcset="">
+                            <img  data-aos="zoom-in" src="../asset/trend-5.jpg" alt="" srcset="">
                           
                             
                         </div>
                         <div class="content__movie">
                             <div class="content__sub-movie">
-                                <i class="menu plus fas fa-plus"></i>
+                                
                             </div>
-                            <img src="../asset/trend-2.jpg" alt="" srcset="">
+                            <img  data-aos="zoom-in" src="../asset/trend-2.jpg" alt="" srcset="">
                             
                         </div>
                         <div class="content__movie">
                             <div class="content__sub-movie">
-                                <i class="menu plus fas fa-plus"></i>
+                                
                             </div>
-                            <img src="../asset/live-3.jpg" alt="" srcset="">
+                            <img  data-aos="zoom-in" src="../asset/live-3.jpg" alt="" srcset="">
                            
                         </div>
                         <div class="content__movie">
                             <div class="content__sub-movie">
-                                <i class="menu plus fas fa-plus"></i>
+                                
                             </div>
-                            <img src="../asset/popular-3.jpg" alt="" srcset="">
+                            <img  data-aos="zoom-in" src="../asset/popular-3.jpg" alt="" srcset="">
                         </div>
                         
                     </div>
@@ -267,5 +269,12 @@
         $('.loader').fadeToggle();
     },1000)
   </script>
+   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+   <script>
+     AOS.init({
+       duration: 2000,
+       once: true,
+     });
+   </script>
 </body>
 </html>
