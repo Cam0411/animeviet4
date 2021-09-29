@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Anime</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="base.css">
     <link rel="stylesheet" href="detail.css">
     <link rel="stylesheet" href="redetail.css">
@@ -41,9 +42,9 @@
     <div id="slider">
      <div class="grid">
          <div class="slider__box">
-             <h1 class="slider__heading">ACTION, MAGIC - <span class="slider__color">March 08, 2020 </span> </h1>
-             <p class="slider__about">Anime for Beginners: 20 Pieces <br> of Essential Viewing</p>
-             <div class="slider__nav">
+             <h1 class="slider__heading"  data-aos="fade-up">ACTION, MAGIC - <span class="slider__color">March 08, 2020 </span> </h1>
+             <p class="slider__about"  data-aos="fade-up">Anime for Beginners: 20 Pieces <br> of Essential Viewing</p>
+             <div class="slider__nav"  data-aos="fade-up">
                  <li><i class="fab fa-facebook"></i> Facekbook</li>
                  <li><i class="fab fa-pinterest"></i> pinterest</li>
                  <li><i class="fab fa-linkedin"></i> Linkedin</li>
@@ -55,29 +56,29 @@
     <div id="content">
         <div class="gird">
             <div class="content__flex">
-                <img class="content__img" src="./asset/blog-details-pic.jpg" alt="" srcset="">
-                <p class="content__about">As a result the last couple of eps haven’t been super exciting for me, 
+                <img  data-aos="fade-up" class="content__img" src="./asset/blog-details-pic.jpg" alt="" srcset="">
+                <p class="content__about"  data-aos="fade-up" >As a result the last couple of eps haven’t been super exciting for me, 
                     because they’ve been more like settling into a familiar and comfortable routine.  We’re seeing character growth here but it’s subtle (apart from Shouyou, arguably). 
                      I mean, Tobio being an asshole is nothing new – it’s kind of the foundation of his entire character arc.  Confronting whether his being an asshole is a problem 
                      for the Crows this directly is a bit of an evolution, and probably an overdue one at that,
                      but the overall dynamic with Kageyama is basically unchanged.</p>
-                     <h1 class="content__heading">Tobio-Nishinoya showdown:</h1>
-                     <img class="content__img-2" src="./asset/bd-item-1.jpg" alt="" srcset="">
+                     <h1 class="content__heading"  data-aos="fade-up">Tobio-Nishinoya showdown:</h1>
+                     <img  data-aos="fade-up" class="content__img-2" src="./asset/bd-item-1.jpg" alt="" srcset="">
                      <p class="content__about">In Japan the idea of a first-year speaking to a senior the way Kageyama did to Asahi 
                          is a lot more shocking than it would be in the West, but Tobio calling out teammates in genuinely rude fashion in the middle of
                           a match is what got him isolated in the first place.  It’s better for the Crows to sort this out in practice matches than the real deal, but this 
                           is really on Tobio –
                           he has to figure out how to co-exist with others in a team environment.</p>
-                          <h1 class="content__heading">Nanatsu no Taizai: Kamigami No Gekirin</h1>
-                          <img class="content__img-2" src="./asset/bd-item-2.jpg" alt="" srcset="">
-                          <p class="content__about">In Japan the idea of a first-year speaking to a senior the way Kageyama did to Asahi 
+                          <h1 class="content__heading"  data-aos="fade-up">Nanatsu no Taizai: Kamigami No Gekirin</h1>
+                          <img class="content__img-2" data-aos="fade-up" src="./asset/bd-item-2.jpg" alt="" srcset="">
+                          <p class="content__about"  data-aos="fade-up">In Japan the idea of a first-year speaking to a senior the way Kageyama did to Asahi 
                               is a lot more shocking than it would be in the West, but Tobio calling out teammates in genuinely rude fashion in the middle of
                                a match is what got him isolated in the first place.  It’s better for the Crows to sort this out in practice matches than the real deal, but this 
                                is really on Tobio –
                                he has to figure out how to co-exist with others in a team environment.</p>
-                               <h1 class="content__heading">Tobio-Nishinoya showdown:</h1>
-                               <img class="content__img-2" src="./asset/bd-item-3.jpg" alt="" srcset="">
-                               <p class="content__about">In Japan the idea of a first-year speaking to a senior the way Kageyama did to Asahi 
+                               <h1 class="content__heading"  data-aos="fade-up">Tobio-Nishinoya showdown:</h1>
+                               <img class="content__img-2" data-aos="fade-up" src="./asset/bd-item-3.jpg" alt="" srcset="">
+                               <p class="content__about"  data-aos="fade-up">In Japan the idea of a first-year speaking to a senior the way Kageyama did to Asahi 
                                    is a lot more shocking than it would be in the West, but Tobio calling out teammates in genuinely rude fashion in the middle of
                                     a match is what got him isolated in the first place.  It’s better for the Crows to sort this out in practice matches than the real deal, but this 
                                     is really on Tobio –
@@ -188,5 +189,12 @@
         $('.loader').fadeToggle();
     },1000)
   </script>
+   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+   <script>
+     AOS.init({
+       duration: 2000,
+       once: true,
+     });
+   </script>
 </body>
 </html>
