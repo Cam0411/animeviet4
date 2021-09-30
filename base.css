@@ -88,3 +88,12 @@
     background: #FF9f1a;
     animation-delay: 0s;
 }
+@keyframes fadeup3{
+    from{
+      
+        opacity: 0;
+    }to{
+     
+        opacity: 1;
+    }
+}
