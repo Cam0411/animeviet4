@@ -155,6 +155,12 @@
     width: 280px;
     height: 385px;
 }
+.iframe 
+{
+    width: 100%;
+    height: 50%;
+    padding: 20px;
+}
 }
 @media (max-width:400px){
     .content__nav li 
@@ -177,6 +183,7 @@
     width: 230px;
     height: 325px;
 }
+
 }
 
 

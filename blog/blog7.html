@@ -54,8 +54,8 @@
       <div id="content">
           <div class="grid">
               <div class="content__flex">
-                  <img class="content__img-2" src="../asset/weatjer-5.jpg" alt="" srcset="">
-                  <img class="content__img"  src="../asset/weather6.jpg" alt="" srcset="">
+                  <img class="content__img-2 menu3" src="../asset/weatjer-5.jpg" alt="" srcset="">
+                  <img class="content__img menu3"  src="../asset/weather6.jpg" alt="" srcset="">
                   <div class="content__info">
                       <h1 class="content__heading">Weathering with You : 天気の子 </h1>
                       <p class="content__about"> 			Makoto Shinkai	 </p>
@@ -206,6 +206,28 @@
         <div class="load"></div>
         <div class="load"></div>
     </div>
+    <div class="modal__3">
+        <div class="modal__content-3">
+            <div class="modal__close-3">
+              <i class="fas fa-times"></i>
+            </div>
+            <iframe class="iframe" width="80%" height="80%" src="https://www.youtube.com/embed/YAXTn0E-Zgo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+<script>
+        menus3 = document.querySelectorAll(".menu3")
+        modal3 = document.querySelector(".modal__3")
+        modalClose3 = document.querySelector(".modal__close-3")
+        function showModal(){
+            modal3.classList.add('open3')
+        }
+        function hideModal(){
+            modal3.classList.remove('open3')
+        }
+        for(const menu3 of menus3){
+            menu3.addEventListener("click",showModal)
+        }
+        modalClose3.addEventListener("click",hideModal)
+    </script> 
     <script>
         menus2 = document.querySelectorAll(".menu__2")
         modal2 = document.querySelector(".modal__2")

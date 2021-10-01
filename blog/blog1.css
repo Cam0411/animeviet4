@@ -378,6 +378,7 @@ li.header__li-box a:hover
     width: 350px;
     height: 570px;
     padding: 20px;
+    cursor: pointer;
 }
 .content__heading 
 {
@@ -442,6 +443,7 @@ li.header__li-box a:hover
 {
     display: none;
     width: 500px;
+    cursor: pointer;
 }
 .content__sub-nav-flex
 {
@@ -672,4 +674,49 @@ li.header__li-box a:hover
     width: 16px;
     margin-left: 10px;
     animation: loader 1.2s infinite;
+}
+.modal__3 
+{
+    position: fixed;
+    background: #000;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+    position: relative;
+    display: none;
+    animation: fadeup3 linear 0.4s ;
+}
+.modal__content-3 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #000;
+    animation: fadeup3 linear 0.4s ;
+}
+.modal__3.open3 
+{
+    display: flex;
+}
+.modal__content-3 i 
+{
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: #fff;
+    font-size: 30px;
+    padding: 10px 20px 10px 20px;
+    cursor: pointer;
+}
+.modal__content-3 i:hover 
+{
+    background: #e63334;
 }
