@@ -69,7 +69,7 @@
                     <div class="content__movie" data-aos="zoom-in" >
                       
                         <div class="content__sub-movie">
-                            <i class="menu3  plus fas fa-plus"></i>
+                           <a href="./flim/flim.html"> <i class=" plus fas fa-plus"></i></a>
                         </div>
                         <div class="content__exp">18/18</div>
                         <div class="content__exp-2"><i class="far fa-comments"></i> 11</div>
@@ -84,7 +84,7 @@
                     <div class="content__movie" data-aos="zoom-in">
                      
                         <div class="content__sub-movie">
-                            <i class="menu plus fas fa-plus"></i>
+                            <i class="menu4 plus fas fa-plus"></i>
                         </div>
                         <div class="content__exp">1/30</div>
                         <div class="content__exp-2"><i class="far fa-comments"></i> 21</div>
@@ -114,7 +114,7 @@
                     <div class="content__movie" data-aos="zoom-in">
 
                         <div class="content__sub-movie">
-                            <i class="menu plus fas fa-plus"></i>
+                            <i class="menu4 plus fas fa-plus"></i>
                         </div>
                         <div class="content__exp">10/25</div>
                         <div class="content__exp-2"><i class="far fa-comments"></i> 51</div>
@@ -137,7 +137,7 @@
                 <div class="content__trending-movie">
                     <div class="content__movie" data-aos="zoom-in">
                         <div class="content__sub-movie" >
-                            <i class="menu plus fas fa-plus"></i>
+                            <i class="plus fas fa-plus"></i>
                         </div>
                         <div class="content__exp">18/48</div>
                         <div class="content__exp-2"><i class="far fa-comments"></i> 31</div>
@@ -362,6 +362,13 @@
               <iframe class="i4" width="80%" height="80%" src="https://www.youtube.com/embed/Qyonn5Vbg7s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
       </div>
+      <div class="modal__3">
+        <div class="modal__content-3">
+            <div class="modal__close-3">
+              <i class="fas fa-times"></i>
+            </div>
+        </div>
+    </div>
     <div class="loader">
         <div class="load"></div>
         <div class="load"></div>
@@ -373,7 +380,7 @@
         modal2 = document.querySelector(".modal__2")
         modalClose2 = document.querySelector(".modal__close-2")
         function showModal(){
-            modal2.classList.add('open2 i5')
+            modal2.classList.add('open2')
         }
         function hideModal(){
             modal2.classList.remove('open2')
@@ -411,6 +418,21 @@
         }
         for(const menu3 of menus3){
             menu3.addEventListener("click",showModal)
+        }
+        modalClose3.addEventListener("click",hideModal)
+    </script> 
+     <script>
+        menus4 = document.querySelectorAll(".menu4")
+        modal3 = document.querySelector(".modal__3")
+        modalClose3 = document.querySelector(".modal__close-3")
+        function showModal(){
+            modal3.classList.add('open3')
+        }
+        function hideModal(){
+            modal3.classList.remove('open3')
+        }
+        for(const menu4 of menus4){
+            menu4.addEventListener("click",showModal)
         }
         modalClose3.addEventListener("click",hideModal)
     </script> 
