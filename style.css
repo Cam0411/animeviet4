@@ -585,3 +585,8 @@ li.header__li-box a:hover
 {
     display: flex;
 }
+.img__f 
+{
+    width: 230px;
+    height: 325px;
+}
